@@ -1,0 +1,113 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+h1{
+text-align: center;
+color:#fff;
+}
+#wrapper{
+	width:1000px;
+	margin:10px auto;
+	
+	padding: 20px;
+	background-repeat: no-repeat;
+	background-size: 1000px;
+
+}
+
+.chat_wrapper{
+	width: 60%;
+	margin: 10px auto;
+	background-color: #ffffff;
+	opacity:0.7;
+	margin-color:#2672c9; 
+
+}
+
+#chat{
+min-height: 500px;
+height: 500px;
+border:1px solid #2672c9;
+padding: 10px;
+overflow: auto;
+border-radius: 10px;
+
+
+
+
+}
+
+.textarea{
+	width:96%;
+	border: 1px solid #b3b3b3;
+	outline: none;
+	padding: 10px;
+	margin-top:10px;
+	border-radius: 10px;
+	border-color: #2672c9;
+
+}
+.single-message{
+	display:inline-block;
+  clear: both;
+  padding: 20px;
+  border-radius: 30px;
+  margin-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  float: left;
+  background: #0084ff;
+  color: #fff;
+}
+body{
+	background-image: url("../img/sky4.jpg");
+	background-repeat: no-repeat;
+	height:100%;
+
+}
+.wrapper{
+	width:1000px;
+	margin:10px auto;
+	background-color: #f1f1f1;
+	padding: 20px;
+	background-repeat: no-repeat;
+	background-size: 1000px;
+	min-height: 500px;
+
+}
+.box{
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  border:solid;
+  border-color:#000;
+  text-overflow:hidden;
+  overflow-y:auto;
+  overflow-x:auto;
+  padding-bottom:10px;
+  padding-right:10px;
+  padding-left:10px;
+  margin-left:10px;
+  border-radius:10px;
+
+}
+#oky{
+	height:25px;
+	width:55px;
+	float:right;
+	border-radius:4px;
+	position:relative;
+	right:100px;
+	font-family:"Bellota-LightItalic",sans-serif;
+	background-color: rgb(0,255,0)
+}
+#delete{
+	height:25px;
+	width:55px;
+	float:right;
+	border-radius:4px;
+	position:relative;
+	right:100px;
+	font-family:"Bellota-LightItalic",sans-serif;
+	background-color: rgb(255,0,0);
+}
